@@ -1,6 +1,6 @@
 # Argo CD v2.13.5
 # TODO: Pinned to 2.13.x https://github.com/argoproj-labs/argocd-operator/issues/1631#issue-2752065624
-FROM quay.io/argoproj/argocd@sha256:17c471916f3e14c01c599a534944c83a7905c1ba42a486e4ef9b87f58c788658 as argocd
+FROM quay.io/argoproj/argocd@sha256:ceb91cc959b34e8493ea2b68c3b3b40a99aa038056c8d2a462a7a8472fd5384d as argocd
 
 # Final Image
 FROM docker.io/library/ubuntu:24.04
